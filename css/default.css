@@ -1,6 +1,22 @@
-font-family: 'Fjalla One', sans-serif;
+
+header {
+    font-family: 'Fjalla One', sans-serif, bold;
+    color: black;
+    Background-color: #ECA259;
+    text-align: center;
+    padding: 30px 20px 30px 20px;
+}
 body {
     font-family: 'Fjalla One', sans-serif;
-    font: Yellow;
+    color: Yellow;
     Background-color: #C0C0C0;
+}
+#nav {
+    line-height:30px;
+    background-color:#eeeeee;
+    height:300px;
+    width:100px;
+    float:left;
+    padding:5px; 
+    text-decoration: none;         
 }
