@@ -2,97 +2,24 @@
 header {
     font-family: 'Fjalla One', sans-serif, bold;
     color: black;
-    Background-color: #ECA259;
+    Background-color: #F4F3F2;
     text-align: center;
     padding: 30px 20px 30px 20px;
+}
+header a {
+    text-decoration: none;
+    color: black;
+    
 }
 body {
     font-family: 'Fjalla One', sans-serif;
     color: Yellow;
     Background-color: #C0C0C0;
 }
-//*
-.menu a.cat1 {background: url(link to img) no0repeat 6px}
-.menu a.cat2 {background: url(link to img) no0repeat 6px}
-.menu a.cat3 {background: url(link to img) no0repeat 6px}
-*//
-.menu a {
-    margin: 0;
-    padding: 0;
-    border: none;
-    outline: none;
-}
-.menu {
-    height: 40px;
-    width: 505px;
-    background: #4c4e5a;
-    background: linear-gradient(top, #4c4e5a 0%, #2c2d33 100%);
-}
-
-// all of the li crap
-.menu li {
-    position: relative;
-    list-style: none;
-    float: left;
-    display: block;
-    height: 40px;
-}
-.menu li:hover > ul li{
-    height: 36px;
-    overflow: visible;
-    padding: 0;
-.menu li a {
-    display: block;
-    padding: 0 14px;
-    margin: 6px 0;
-    line-height: 28px;
-    text-decoration: none;
-    border-left: 1px solid #393942;
-    border-right: 1px solid #4f5058;
-    font-family:  'Fjalla One', sans-serif;
-    font-weight: bold;
-    font-size: 13px;
-    color: #f3f3f3;
-    text-shadow: 1px 1px 1px rbga(0,0,0,.6);
-
-}
-.menu li:first-child a {
-    border-left: none;
-}
-.menu li:last-child a{
-    border-right: none;
-}
-.menu li:hover > a {
-    color: #8fde62;
-}
-.menu li:hover > ul {
-    opacity: 1;
-}
-// all of the ul crap
-.menu ul li {
-    height: 0;
-    overflow: hidden;
-    padding: 0;
-    transition: height .25s ease .1s;
-}
-
-}
-.menu ul {
-    position: absolute;
-    top: 40px;
-    left: 0px;
-    opacity: 0;
-    background: #1f2024;
-    border-radius: 0 0 5px 5px;
-    transition: opacity .25s ease .1s;
-}
-.menu ul li a {
-    width: 100px;
-    padding: 4px 0 4px 40px;
-    margin: 0;
-    border: none;
-    border-bottom: 1px solid #353539;
-}
-.menu ul li:last-child a {
-    border: none;
+footer {
+    font-family: 'Fjalla One', sans-serif, bold;
+    color: black;
+    Background-color: #F4F3F2;
+    text-align: center;
+    padding: 30px 20px 30px 20px;
 }
