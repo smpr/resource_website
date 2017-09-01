@@ -1,25 +1,46 @@
-
-header {
-    font-family: 'Fjalla One', sans-serif, bold;
-    color: black;
-    Background-color: #F4F3F2;
-    text-align: center;
-    padding: 30px 20px 30px 20px;
-}
-header a {
-    text-decoration: none;
-    color: black;
-    
-}
 body {
-    font-family: 'Fjalla One', sans-serif;
-    color: Yellow;
-    Background-color: #C0C0C0;
-}
-footer {
-    font-family: 'Fjalla One', sans-serif, bold;
-    color: black;
-    Background-color: #F4F3F2;
-    text-align: center;
-    padding: 30px 20px 30px 20px;
-}
+    min-height: 100vh;
+    margin: 0px auto;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  header {
+    background-color: #A6A59F;
+    flex-grow: 1;
+  }
+  
+  footer {
+    background-color: #A6A59F;
+    flex-grow: 1;
+    display: flex;
+  }
+ 
+  main {
+    flex-grow: 8;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  
+  .topnav {
+    }
+   .bottom {
+    justify-content: space-around;
+    align-items: center;
+  }
+  .content {
+    flex-grow: 8;
+  }
+  
+  @media only screen and (max-width: 500px) {
+    main {
+      flex-direction: column;
+    }
+    
+    .ads {
+      order: -1;
+    }
+  }
